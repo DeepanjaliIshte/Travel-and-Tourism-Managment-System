@@ -35,9 +35,9 @@ A loop animates the splash screen by gradually increasing the size of the frame.
 
 <h5>public void run() Method:</h5>
 <h5>Thread.sleep(7000):</h5> <h6> This pauses the execution for 7 seconds, allowing the splash screen to be displayed for that duration.</h6>
-<h5>dispose():</h5> <h6> This closes the splash screen</h6>.
+<h5>dispose():</h5> <h6> This closes the splash screen.</h6>
 <h5>Login l = new Login() and l.setVisible(true): </h5> <h6>After closing the splash screen, a new Login window is opened. (Assuming a Login class is implemented elsewhere in the application.)</h6>
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 How It Works Together:
 Initialization: The Splash class initializes the splash screen (SplashFrame) and makes it visible.
 Animation Loop: The main method animates the splash screen by gradually increasing the size of the frame and scaling the image to fit the new size.
